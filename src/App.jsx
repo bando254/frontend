@@ -3,19 +3,12 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Components/Navbar';
-
-
-
-
-
-// ✅ Only ONE Footer import
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import Blog from './Pages/Blog';
 import Book from './Pages/Book';
 import Contact from './Pages/Contact';
 import Live from './Pages/live';
-import Skills from './Pages/Skills';
 import Footer from './Components/Footer';
 
 import './App.css';
