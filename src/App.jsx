@@ -17,6 +17,7 @@ import Book from './Pages/Book';
 import Contact from './Pages/Contact';
 import Live from './Pages/live';
 import Skills from './Pages/Skills';
+import Footer from './Components/Footer';
 
 import './App.css';
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/live" element={<Live />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/footer" element={<Footer/>}/>
       </Routes>
       <Footer />
     </Router>
