@@ -3,16 +3,14 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Components/Navbar';
-import Footer from './components/Footer';
+import Footer from './components/Footer'; // ✅ Only ONE Footer import
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import Blog from './Pages/Blog';
 import Book from './Pages/Book';
 import Contact from './Pages/Contact';
 import Live from './Pages/live';
-import Skills from './Pages/Skills'; // ✅ Added Skills Page
-import Footer from "./components/Footer";
-
+import Skills from './Pages/Skills';
 
 import './App.css';
 
@@ -27,7 +25,7 @@ function App() {
         <Route path="/book" element={<Book />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/live" element={<Live />} />
-        <Route path="/skills" element={<Skills />} /> {/* ✅ Route to Skills */}
+        <Route path="/skills" element={<Skills />} />
       </Routes>
       <Footer />
     </Router>
