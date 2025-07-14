@@ -11,6 +11,8 @@ import Book from './Pages/Book';
 import Contact from './Pages/Contact';
 import Live from './Pages/live';
 import Skills from './Pages/Skills'; // ✅ Added Skills Page
+import Footer from "./components/Footer";
+
 
 import './App.css';
 
