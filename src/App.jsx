@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Navbar from './Components/Navbar';
+//import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import Blog from './Pages/Blog';
@@ -10,6 +10,11 @@ import Book from './Pages/Book';
 import Contact from './Pages/Contact';
 import Live from './Pages/live';
 import Footer from './Components/Footer';
+
+
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 
 import './App.css';
 
