@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 
 
 
+
 // ✅ Only ONE Footer import
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
