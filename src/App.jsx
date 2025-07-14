@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Components/Navbar';
-import Footer from './components/Footer'; // ✅ Only ONE Footer import
+import Footer from './Components/Footer'; // ✅ Only ONE Footer import
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import Blog from './Pages/Blog';
